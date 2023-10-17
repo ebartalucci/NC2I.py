@@ -1,0 +1,1056 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ PAL_Flags
+   description: The PAL Flags
+   geom. index: 1
+   prop. index: 1
+        Diskflag:     2
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -464.0918931404
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                 41.9999764988 
+   Number of Beta  Electrons                 41.9999764988 
+   Total number of  Electrons                83.9999529977 
+   Exchange energy                          -49.6460553767 
+   Correlation energy                        -2.7448155310 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy              -52.3908709077 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)    -464.0918931404 
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 24
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 24
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     0.9803     1.0000     0.0197     1.0254     1.0254    -0.0000
+  1   0     6.0800     6.0000    -0.0800     3.9121     3.9121    -0.0000
+  2   0     0.9718     1.0000     0.0282     1.0199     1.0199     0.0000
+  3   0     0.9747     1.0000     0.0253     1.0212     1.0212    -0.0000
+  4   0     5.9208     6.0000     0.0792     3.7171     3.7171    -0.0000
+  5   0     6.0129     6.0000    -0.0129     3.8684     3.8684    -0.0000
+  6   0     6.0797     6.0000    -0.0797     3.9121     3.9121     0.0000
+  7   0     6.0418     6.0000    -0.0418     3.8914     3.8914    -0.0000
+  8   0     0.9803     1.0000     0.0197     1.0255     1.0255    -0.0000
+  9   0     0.9746     1.0000     0.0254     1.0224     1.0224    -0.0000
+ 10   0     6.0130     6.0000    -0.0130     3.8687     3.8687    -0.0000
+ 11   0     0.9747     1.0000     0.0253     1.0212     1.0212    -0.0000
+ 12   0     6.0234     6.0000    -0.0234     3.8856     3.8856     0.0000
+ 13   0     6.0293     6.0000    -0.0293     3.8820     3.8820     0.0000
+ 14   0     6.0297     6.0000    -0.0297     3.8819     3.8819    -0.0000
+ 15   0     6.0287     6.0000    -0.0287     3.8823     3.8823     0.0000
+ 16   0     6.0286     6.0000    -0.0286     3.8820     3.8820     0.0000
+ 17   0     6.0231     6.0000    -0.0231     3.8858     3.8858    -0.0000
+ 18   0     0.9717     1.0000     0.0283     1.0231     1.0231     0.0000
+ 19   0     0.9724     1.0000     0.0276     1.0233     1.0233    -0.0000
+ 20   0     0.9723     1.0000     0.0277     1.0232     1.0232    -0.0000
+ 21   0     0.9723     1.0000     0.0277     1.0233     1.0233     0.0000
+ 22   0     0.9723     1.0000     0.0277     1.0233     1.0233    -0.0000
+ 23   0     0.9715     1.0000     0.0285     1.0229     1.0229     0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             1               1            6                1.035058
+                1             6               4            6                1.384139
+                1             6               5            6                1.432798
+                2             1               4            6                1.024213
+                3             1               5            6                1.020918
+                4             6               6            6                1.383678
+                5             6               7            6                1.412795
+                6             6               8            1                1.034915
+                6             6              10            6                1.433035
+                7             6               9            1                1.020531
+                7             6              10            6                1.412625
+               10             6              11            1                1.020892
+               12             6              13            6                1.415072
+               12             6              14            6                1.415611
+               12             6              18            1                1.021215
+               13             6              15            6                1.413988
+               13             6              21            1                1.022082
+               14             6              16            6                1.413374
+               14             6              19            1                1.022168
+               15             6              17            6                1.415552
+               15             6              20            1                1.021882
+               16             6              17            6                1.415585
+               16             6              22            1                1.021947
+               17             6              23            1                1.021021
+# -----------------------------------------------------------
+$ Calculation_Info
+   description: Details of the calculation
+   geom. index: 1
+   prop. index: 1
+     Multiplicity:                          1
+     Charge:                                0
+     number of atoms:                       24
+     number of electrons:                   0
+     number of frozen core electrons:       1
+     number of correlated electrons:        0
+     number of basis functions:             600
+     number of aux C basis functions:       0
+     number of aux J basis functions:       0
+     number of aux JK basis functions:      2964
+     number of aux CABS basis functions:    0
+     Total Energy                           -464.091893
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : run_all_displaced_distances_job7.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        0.3007198709
+        Electronic Contribution:
+                  0    
+      0      -0.164332
+      1      -0.000638
+      2      -0.002594
+        Nuclear Contribution:
+                  0    
+      0       0.046046
+      1       0.001168
+      2       0.004913
+        Total Dipole moment:
+                  0    
+      0      -0.118286
+      1       0.000530
+      2       0.002319
+# -----------------------------------------------------------
+$ EPRNMR_OrbitalShielding
+   description: Orbital contribution to the NMR Shielding tensor (ppm)
+   geom. index: 1
+   prop. index: 1
+ Number of stored nuclei 24
+ Source density: 1 SCF 
+ Nucleus: 0 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      28.093314  -3.221766   0.034203
+      1      -2.158503  23.824324  -0.014728
+      2       0.068927  -0.030705  20.330699
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.005648  -0.444182   0.895919
+      1       0.001723  -0.895936  -0.444179
+      2       0.999983  -0.000965   0.005825
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.330349  22.525463  29.392525
+P(iso)  24.082779
+ Nucleus: 2 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      30.378097   0.059304  -0.007059
+      1       0.080437  26.495601  -0.001903
+      2       0.081198  -0.001610  19.853091
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.002645   0.017799   0.999838
+      1       0.000303  -0.999842   0.017799
+      2       0.999996   0.000350   0.002640
+ P Eigenvalues: 
+                  0          1          2    
+      0      19.852968  26.494345  30.379476
+P(iso)  25.575596
+ Nucleus: 3 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      26.903818   1.382570   0.042260
+      1       1.652807  24.051668   0.014390
+      2       0.046682   0.020839  20.603234
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.006479  -0.394567  -0.918844
+      1      -0.002151   0.918867  -0.394562
+      2       0.999977  -0.000580  -0.006802
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.602905  23.395211  27.560605
+P(iso)  23.852907
+ Nucleus: 8 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      28.103137   3.186669   0.031213
+      1       2.166247  23.830576   0.011607
+      2       0.072875   0.018806  20.332364
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.006667   0.442490   0.896749
+      1       0.001110  -0.896765   0.442506
+      2       0.999977   0.003946   0.005487
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.332014  22.543065  29.390999
+P(iso)  24.088693
+ Nucleus: 9 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      23.755614   0.015950   0.020988
+      1       0.015899  27.075753  -0.002006
+      2       0.033613  -0.001159  20.630401
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.008594  -0.999952  -0.004794
+      1       0.000276   0.004792  -0.999988
+      2       0.999963  -0.008595   0.000235
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.630162  23.755776  27.075829
+P(iso)  23.820589
+ Nucleus: 11 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      26.876504  -1.401928   0.043854
+      1      -1.652491  24.083117  -0.015367
+      2       0.053023  -0.013866  20.604167
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.007406  -0.400917   0.916085
+      1       0.000911  -0.916112  -0.400921
+      2       0.999972  -0.002134   0.007150
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.603790  23.410279  27.549719
+P(iso)  23.854596
+ Nucleus: 18 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      21.008731  -0.038586   0.255228
+      1      -0.030821  26.852709  -0.193770
+      2       0.959935  -0.173928  22.779995
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.952631   0.303928   0.011015
+      1       0.003723   0.047870  -0.998847
+      2       0.304105   0.951491   0.046735
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.820415  22.959361  26.861659
+P(iso)  23.547145
+ Nucleus: 19 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      21.096328   0.262442   0.130105
+      1       0.321496  23.810274  -1.547015
+      2       0.407078  -1.443183  25.568141
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.980045   0.197877   0.018877
+      1      -0.162929   0.854078  -0.493968
+      2      -0.113867   0.481036   0.869275
+ P Eigenvalues: 
+                  0          1          2    
+      0      21.017689  23.032091  26.424964
+P(iso)  23.491581
+ Nucleus: 20 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      21.092528  -0.266317  -0.230364
+      1      -0.322624  23.807145  -1.551411
+      2      -0.516801  -1.446681  25.588070
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.974720  -0.220497  -0.036078
+      1       0.175094   0.854138  -0.489684
+      2       0.138789   0.470988   0.871153
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.987901  23.052639  26.447203
+P(iso)  23.495914
+ Nucleus: 21 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      21.081719  -0.277970   0.122797
+      1      -0.353768  24.144859   1.739420
+      2       0.461392   1.620793  25.281778
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.976185  -0.216588   0.012340
+      1       0.169312   0.796203   0.580856
+      2      -0.135632  -0.564934   0.813913
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.987868  23.033005  26.487484
+P(iso)  23.502786
+ Nucleus: 22 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      21.088506   0.177415  -0.275613
+      1       0.250230  24.133214   1.745858
+      2      -0.632013   1.619835  25.280577
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.973967   0.221501  -0.048226
+      1      -0.154113   0.803000   0.575708
+      2       0.166245  -0.553288   0.816232
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.979297  23.027023  26.495977
+P(iso)  23.500766
+ Nucleus: 23 H 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0      21.014729  -0.057702  -0.296752
+      1      -0.065069  26.858685  -0.192988
+      2      -0.991663  -0.176748  22.776162
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.947452  -0.319854  -0.005374
+      1       0.019314   0.040426   0.998996
+      2       0.319315   0.946604  -0.044479
+ P Eigenvalues: 
+                  0          1          2    
+      0      20.802190  22.980166  26.867220
+P(iso)  23.549859
+ Nucleus: 1 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0       7.813054 -45.910138  -1.180410
+      1     -46.387120 -45.486074  -0.210331
+      2      -1.085787   0.074191 175.295131
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.862812   0.505483  -0.006504
+      1       0.505478   0.862836   0.002462
+      2      -0.006857   0.001164   0.999976
+ P Eigenvalues: 
+                  0          1          2    
+      0      34.443482 -72.123961 175.302590
+P(iso)  45.874037
+ Nucleus: 4 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0     -69.277175   0.455042  -1.522723
+      1       0.346866  27.386095   0.147931
+      2      -1.610577   0.031123 178.282033
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.005436  -0.999963  -0.006729
+      1       0.999985   0.005435   0.000292
+      2      -0.000255  -0.006731   0.999977
+ P Eigenvalues: 
+                  0          1          2    
+      0      27.387566 -69.288558 178.291945
+P(iso)  45.463651
+ Nucleus: 5 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0       8.226303  44.379854  -1.351308
+      1      44.925070 -45.642915   0.289013
+      2      -1.396153   0.531312 175.359362
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.867134  -0.498001  -0.008551
+      1      -0.498029   0.867160   0.001289
+      2      -0.006773  -0.005377   0.999963
+ P Eigenvalues: 
+                  0          1          2    
+      0      33.426296 -70.853885 175.370340
+P(iso)  45.980917
+ Nucleus: 6 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0       8.441603  45.487540  -1.442778
+      1      46.125334 -46.115491   0.568342
+      2      -1.171009   0.207540 175.273309
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.865105   0.501547  -0.006602
+      1       0.501547  -0.865129  -0.001657
+      2       0.006543   0.001878   0.999977
+ P Eigenvalues: 
+                  0          1          2    
+      0      34.462706 -72.145687 175.282403
+P(iso)  45.866474
+ Nucleus: 7 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0     -70.131807   0.415933  -2.213444
+      1       0.347806  33.272456  -0.044619
+      2      -2.230956   0.076050 175.249779
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.004635  -0.999947  -0.009139
+      1       0.999989   0.004632   0.000374
+      2      -0.000332  -0.009141   0.999958
+ P Eigenvalues: 
+                  0          1          2    
+      0      33.273787 -70.153248 175.269889
+P(iso)  46.130143
+ Nucleus: 10 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0       7.728404 -44.798173  -1.559147
+      1     -45.223726 -44.934932  -0.366659
+      2      -1.427479  -0.532252 175.392940
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.864543  -0.502485  -0.008625
+      1      -0.502510  -0.864571  -0.000807
+      2       0.007051  -0.005032   0.999962
+ P Eigenvalues: 
+                  0          1          2    
+      0      33.532601 -70.752370 175.406181
+P(iso)  46.062137
+ Nucleus: 12 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0     176.441598   1.338808   5.183932
+      1       1.189389  30.814055  -5.119529
+      2       5.226069  -5.007845 -72.103278
+ P Tensor eigenvectors:
+                   0          1          2    
+      0       0.007314   0.020952   0.999754
+      1      -0.998817  -0.047915   0.008311
+      2       0.048077  -0.998632   0.020577
+ P Eigenvalues: 
+                  0          1          2    
+      0      31.055471 -72.462827 176.559730
+P(iso)  45.050791
+ Nucleus: 13 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0     176.422273  -0.775302   2.997157
+      1      -0.111409 -41.265130  47.116251
+      2       2.915166  46.892649   0.637695
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.014662   0.010911  -0.999833
+      1       0.546833   0.837241   0.001118
+      2       0.837113  -0.546725  -0.018242
+ P Eigenvalues: 
+                  0          1          2    
+      0      31.113605 -71.789181 176.470414
+P(iso)  45.264946
+ Nucleus: 14 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0     176.365748   4.225505   3.359442
+      1       3.353821 -50.066404 -41.988143
+      2       3.073762 -41.855635   9.521081
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.007310  -0.023852  -0.999689
+      1      -0.460284   0.887593  -0.017812
+      2       0.887741   0.460011  -0.017467
+ P Eigenvalues: 
+                  0          1          2    
+      0      31.149146 -71.792934 176.464213
+P(iso)  45.273475
+ Nucleus: 15 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0     176.428850   0.433521   1.443287
+      1       1.291131 -50.143511 -42.007939
+      2       1.696132 -41.916678   9.477016
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.007278  -0.001804  -0.999972
+      1      -0.459879   0.887980   0.001745
+      2       0.887952   0.459878  -0.007292
+ P Eigenvalues: 
+                  0          1          2    
+      0      31.132925 -71.810802 176.440233
+P(iso)  45.254119
+ Nucleus: 16 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0     176.384903   3.048674   0.612486
+      1       2.394122 -41.386728  47.171741
+      2       0.649524  46.964850   0.412925
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.014649  -0.010475  -0.999838
+      1       0.546945   0.837000  -0.016782
+      2       0.837040  -0.547102  -0.006532
+ P Eigenvalues: 
+                  0          1          2    
+      0      30.984434 -71.999284 176.425950
+P(iso)  45.137033
+ Nucleus: 17 C 
+ Shielding tensor (ppm): 
+                  0          1          2    
+      0     176.483399   1.092421   1.100757
+      1       1.248153  30.662154  -5.099062
+      2       1.096579  -5.004697 -72.331411
+ P Tensor eigenvectors:
+                   0          1          2    
+      0      -0.007290  -0.004607  -0.999963
+      1       0.998829   0.047785  -0.007502
+      2      -0.047818   0.998847  -0.004253
+ P Eigenvalues: 
+                  0          1          2    
+      0      30.900702 -72.583832 176.497272
+P(iso)  44.938047
+# -----------------------------------------------------------
+$ EPRNMR_SSCoupling
+   description: Spin-Spin couplings
+   geom. index: 1
+   prop. index: 1
+ Source density: 0 UNKNOWN 
+ Number of nuclei pairs to calculate something:              169
+ Number of nuclei pairs to calculate DSO   terms:            169
+ Number of nuclei pairs to calculate PSO   terms:            169
+ Number of nuclei pairs to calculate FC    terms:            169
+ Number of nuclei pairs to calculate SD    terms:            169
+ Number of nuclei pairs to calculate PSO   perturbations:    22
+ Number of nuclei pairs to calculate SD/FC perturbations:    22
+ Information for pairs 
+ Pair: 0 Index A: 0 Atomic Number A: 1 Index B: 1 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 1.0867
+          Total Spin-Spin Coupling ISO:  213.9318 
+ Pair: 1 Index A: 0 Atomic Number A: 1 Index B: 2 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4756
+          Total Spin-Spin Coupling ISO:  6.4325 
+ Pair: 2 Index A: 0 Atomic Number A: 1 Index B: 3 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4921
+          Total Spin-Spin Coupling ISO:  6.3269 
+ Pair: 3 Index A: 0 Atomic Number A: 1 Index B: 4 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 2.1552
+          Total Spin-Spin Coupling ISO:  -2.7627 
+ Pair: 4 Index A: 0 Atomic Number A: 1 Index B: 5 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 2.1615
+          Total Spin-Spin Coupling ISO:  -2.5960 
+ Pair: 5 Index A: 0 Atomic Number A: 1 Index B: 6 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4056
+          Total Spin-Spin Coupling ISO:  8.2398 
+ Pair: 6 Index A: 0 Atomic Number A: 1 Index B: 7 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4101
+          Total Spin-Spin Coupling ISO:  8.2285 
+ Pair: 7 Index A: 0 Atomic Number A: 1 Index B: 8 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.2996
+          Total Spin-Spin Coupling ISO:  1.0219 
+ Pair: 8 Index A: 0 Atomic Number A: 1 Index B: 9 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3079
+          Total Spin-Spin Coupling ISO:  1.1005 
+ Pair: 9 Index A: 0 Atomic Number A: 1 Index B: 10 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.8851
+          Total Spin-Spin Coupling ISO:  -2.2292 
+ Pair: 10 Index A: 0 Atomic Number A: 1 Index B: 11 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.9716
+          Total Spin-Spin Coupling ISO:  1.0756 
+ Pair: 11 Index A: 0 Atomic Number A: 1 Index B: 12 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 4.9900
+          Total Spin-Spin Coupling ISO:  0.0318 
+ Pair: 12 Index A: 0 Atomic Number A: 1 Index B: 14 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 4.4582
+          Total Spin-Spin Coupling ISO:  0.0259 
+ Pair: 13 Index A: 0 Atomic Number A: 1 Index B: 16 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 4.5087
+          Total Spin-Spin Coupling ISO:  0.0283 
+ Pair: 14 Index A: 0 Atomic Number A: 1 Index B: 19 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.4477
+          Total Spin-Spin Coupling ISO:  0.0142 
+ Pair: 15 Index A: 0 Atomic Number A: 1 Index B: 22 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.5371
+          Total Spin-Spin Coupling ISO:  0.0129 
+ Pair: 16 Index A: 1 Atomic Number A: 6 Index B: 2 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1480
+          Total Spin-Spin Coupling ISO:  -3.4096 
+ Pair: 17 Index A: 1 Atomic Number A: 6 Index B: 3 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1597
+          Total Spin-Spin Coupling ISO:  -2.8000 
+ Pair: 18 Index A: 1 Atomic Number A: 6 Index B: 4 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3984
+          Total Spin-Spin Coupling ISO:  262.0523 
+ Pair: 19 Index A: 1 Atomic Number A: 6 Index B: 5 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3994
+          Total Spin-Spin Coupling ISO:  262.4768 
+ Pair: 20 Index A: 1 Atomic Number A: 6 Index B: 6 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4226
+          Total Spin-Spin Coupling ISO:  -6.2807 
+ Pair: 21 Index A: 1 Atomic Number A: 6 Index B: 7 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4237
+          Total Spin-Spin Coupling ISO:  -5.8243 
+ Pair: 22 Index A: 1 Atomic Number A: 6 Index B: 8 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4053
+          Total Spin-Spin Coupling ISO:  8.2463 
+ Pair: 23 Index A: 1 Atomic Number A: 6 Index B: 9 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4079
+          Total Spin-Spin Coupling ISO:  8.1736 
+ Pair: 24 Index A: 1 Atomic Number A: 6 Index B: 10 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.7984
+          Total Spin-Spin Coupling ISO:  10.6400 
+ Pair: 25 Index A: 1 Atomic Number A: 6 Index B: 11 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8849
+          Total Spin-Spin Coupling ISO:  -2.2780 
+ Pair: 26 Index A: 1 Atomic Number A: 6 Index B: 14 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.9134
+          Total Spin-Spin Coupling ISO:  -0.0070 
+ Pair: 27 Index A: 1 Atomic Number A: 6 Index B: 16 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.9470
+          Total Spin-Spin Coupling ISO:  -0.0058 
+ Pair: 28 Index A: 2 Atomic Number A: 1 Index B: 3 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.2956
+          Total Spin-Spin Coupling ISO:  1.0698 
+ Pair: 29 Index A: 2 Atomic Number A: 1 Index B: 4 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 1.0744
+          Total Spin-Spin Coupling ISO:  218.0028 
+ Pair: 30 Index A: 2 Atomic Number A: 1 Index B: 5 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.3963
+          Total Spin-Spin Coupling ISO:  8.3995 
+ Pair: 31 Index A: 2 Atomic Number A: 1 Index B: 6 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 2.1474
+          Total Spin-Spin Coupling ISO:  -3.4289 
+ Pair: 32 Index A: 2 Atomic Number A: 1 Index B: 7 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.8721
+          Total Spin-Spin Coupling ISO:  -2.1680 
+ Pair: 33 Index A: 2 Atomic Number A: 1 Index B: 8 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4738
+          Total Spin-Spin Coupling ISO:  6.4396 
+ Pair: 34 Index A: 2 Atomic Number A: 1 Index B: 9 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.9584
+          Total Spin-Spin Coupling ISO:  1.0521 
+ Pair: 35 Index A: 2 Atomic Number A: 1 Index B: 10 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.3961
+          Total Spin-Spin Coupling ISO:  8.3850 
+ Pair: 36 Index A: 2 Atomic Number A: 1 Index B: 11 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.2951
+          Total Spin-Spin Coupling ISO:  1.0574 
+ Pair: 37 Index A: 2 Atomic Number A: 1 Index B: 12 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.3985
+          Total Spin-Spin Coupling ISO:  0.1013 
+ Pair: 38 Index A: 2 Atomic Number A: 1 Index B: 13 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4107
+          Total Spin-Spin Coupling ISO:  0.0958 
+ Pair: 39 Index A: 2 Atomic Number A: 1 Index B: 14 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4062
+          Total Spin-Spin Coupling ISO:  0.0984 
+ Pair: 40 Index A: 2 Atomic Number A: 1 Index B: 15 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4336
+          Total Spin-Spin Coupling ISO:  0.0956 
+ Pair: 41 Index A: 2 Atomic Number A: 1 Index B: 16 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4261
+          Total Spin-Spin Coupling ISO:  0.0967 
+ Pair: 42 Index A: 2 Atomic Number A: 1 Index B: 17 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4413
+          Total Spin-Spin Coupling ISO:  0.0971 
+ Pair: 43 Index A: 2 Atomic Number A: 1 Index B: 18 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 3.9478
+          Total Spin-Spin Coupling ISO:  0.0021 
+ Pair: 44 Index A: 2 Atomic Number A: 1 Index B: 19 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 3.9639
+          Total Spin-Spin Coupling ISO:  0.0010 
+ Pair: 45 Index A: 2 Atomic Number A: 1 Index B: 20 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.0058
+          Total Spin-Spin Coupling ISO:  -0.0002 
+ Pair: 46 Index A: 2 Atomic Number A: 1 Index B: 21 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 3.9705
+          Total Spin-Spin Coupling ISO:  0.0013 
+ Pair: 47 Index A: 2 Atomic Number A: 1 Index B: 22 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 3.9940
+          Total Spin-Spin Coupling ISO:  0.0001 
+ Pair: 48 Index A: 2 Atomic Number A: 1 Index B: 23 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.0136
+          Total Spin-Spin Coupling ISO:  -0.0005 
+ Pair: 49 Index A: 3 Atomic Number A: 1 Index B: 4 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4079
+          Total Spin-Spin Coupling ISO:  7.9671 
+ Pair: 50 Index A: 3 Atomic Number A: 1 Index B: 5 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 1.0865
+          Total Spin-Spin Coupling ISO:  211.2241 
+ Pair: 51 Index A: 3 Atomic Number A: 1 Index B: 6 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.8837
+          Total Spin-Spin Coupling ISO:  -2.2619 
+ Pair: 52 Index A: 3 Atomic Number A: 1 Index B: 7 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 2.1571
+          Total Spin-Spin Coupling ISO:  -2.7391 
+ Pair: 53 Index A: 3 Atomic Number A: 1 Index B: 8 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.9704
+          Total Spin-Spin Coupling ISO:  1.0728 
+ Pair: 54 Index A: 3 Atomic Number A: 1 Index B: 9 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4834
+          Total Spin-Spin Coupling ISO:  6.3922 
+ Pair: 55 Index A: 3 Atomic Number A: 1 Index B: 10 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 3.4068
+          Total Spin-Spin Coupling ISO:  8.1296 
+ Pair: 56 Index A: 3 Atomic Number A: 1 Index B: 11 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3030
+          Total Spin-Spin Coupling ISO:  1.0445 
+ Pair: 57 Index A: 4 Atomic Number A: 6 Index B: 5 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4226
+          Total Spin-Spin Coupling ISO:  -5.9742 
+ Pair: 58 Index A: 4 Atomic Number A: 6 Index B: 6 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3988
+          Total Spin-Spin Coupling ISO:  262.1549 
+ Pair: 59 Index A: 4 Atomic Number A: 6 Index B: 7 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.7977
+          Total Spin-Spin Coupling ISO:  9.8881 
+ Pair: 60 Index A: 4 Atomic Number A: 6 Index B: 8 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1551
+          Total Spin-Spin Coupling ISO:  -2.7723 
+ Pair: 61 Index A: 4 Atomic Number A: 6 Index B: 9 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8840
+          Total Spin-Spin Coupling ISO:  -2.2103 
+ Pair: 62 Index A: 4 Atomic Number A: 6 Index B: 10 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4233
+          Total Spin-Spin Coupling ISO:  -5.9307 
+ Pair: 63 Index A: 4 Atomic Number A: 6 Index B: 11 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4085
+          Total Spin-Spin Coupling ISO:  7.9679 
+ Pair: 64 Index A: 4 Atomic Number A: 6 Index B: 12 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.4027
+          Total Spin-Spin Coupling ISO:  0.0802 
+ Pair: 65 Index A: 4 Atomic Number A: 6 Index B: 13 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.4168
+          Total Spin-Spin Coupling ISO:  0.0729 
+ Pair: 66 Index A: 4 Atomic Number A: 6 Index B: 14 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.4066
+          Total Spin-Spin Coupling ISO:  0.0740 
+ Pair: 67 Index A: 4 Atomic Number A: 6 Index B: 15 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.4377
+          Total Spin-Spin Coupling ISO:  0.0720 
+ Pair: 68 Index A: 4 Atomic Number A: 6 Index B: 16 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.4244
+          Total Spin-Spin Coupling ISO:  0.0725 
+ Pair: 69 Index A: 4 Atomic Number A: 6 Index B: 17 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.4415
+          Total Spin-Spin Coupling ISO:  0.0700 
+ Pair: 70 Index A: 4 Atomic Number A: 6 Index B: 18 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 4.8349
+          Total Spin-Spin Coupling ISO:  -0.0100 
+ Pair: 71 Index A: 4 Atomic Number A: 6 Index B: 19 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 4.8458
+          Total Spin-Spin Coupling ISO:  -0.0213 
+ Pair: 72 Index A: 4 Atomic Number A: 6 Index B: 20 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 4.8961
+          Total Spin-Spin Coupling ISO:  -0.0190 
+ Pair: 73 Index A: 4 Atomic Number A: 6 Index B: 21 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 4.8620
+          Total Spin-Spin Coupling ISO:  -0.0188 
+ Pair: 74 Index A: 4 Atomic Number A: 6 Index B: 22 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 4.8744
+          Total Spin-Spin Coupling ISO:  -0.0187 
+ Pair: 75 Index A: 4 Atomic Number A: 6 Index B: 23 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 4.8981
+          Total Spin-Spin Coupling ISO:  -0.0073 
+ Pair: 76 Index A: 5 Atomic Number A: 6 Index B: 6 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.7972
+          Total Spin-Spin Coupling ISO:  10.6655 
+ Pair: 77 Index A: 5 Atomic Number A: 6 Index B: 7 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3992
+          Total Spin-Spin Coupling ISO:  262.5117 
+ Pair: 78 Index A: 5 Atomic Number A: 6 Index B: 8 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8839
+          Total Spin-Spin Coupling ISO:  -2.2384 
+ Pair: 79 Index A: 5 Atomic Number A: 6 Index B: 9 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1580
+          Total Spin-Spin Coupling ISO:  -2.7656 
+ Pair: 80 Index A: 5 Atomic Number A: 6 Index B: 10 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4231
+          Total Spin-Spin Coupling ISO:  -5.7212 
+ Pair: 81 Index A: 5 Atomic Number A: 6 Index B: 11 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4070
+          Total Spin-Spin Coupling ISO:  8.1385 
+ Pair: 82 Index A: 6 Atomic Number A: 6 Index B: 7 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4225
+          Total Spin-Spin Coupling ISO:  -5.8544 
+ Pair: 83 Index A: 6 Atomic Number A: 6 Index B: 8 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0867
+          Total Spin-Spin Coupling ISO:  213.6946 
+ Pair: 84 Index A: 6 Atomic Number A: 6 Index B: 9 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4070
+          Total Spin-Spin Coupling ISO:  8.1776 
+ Pair: 85 Index A: 6 Atomic Number A: 6 Index B: 10 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3989
+          Total Spin-Spin Coupling ISO:  262.6952 
+ Pair: 86 Index A: 6 Atomic Number A: 6 Index B: 11 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1595
+          Total Spin-Spin Coupling ISO:  -2.7943 
+ Pair: 87 Index A: 6 Atomic Number A: 6 Index B: 13 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.9551
+          Total Spin-Spin Coupling ISO:  -0.0076 
+ Pair: 88 Index A: 6 Atomic Number A: 6 Index B: 15 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 4.9583
+          Total Spin-Spin Coupling ISO:  -0.0061 
+ Pair: 89 Index A: 7 Atomic Number A: 6 Index B: 8 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4090
+          Total Spin-Spin Coupling ISO:  8.2534 
+ Pair: 90 Index A: 7 Atomic Number A: 6 Index B: 9 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0863
+          Total Spin-Spin Coupling ISO:  211.8147 
+ Pair: 91 Index A: 7 Atomic Number A: 6 Index B: 10 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3988
+          Total Spin-Spin Coupling ISO:  262.6156 
+ Pair: 92 Index A: 7 Atomic Number A: 6 Index B: 11 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1570
+          Total Spin-Spin Coupling ISO:  -2.7312 
+ Pair: 93 Index A: 8 Atomic Number A: 1 Index B: 9 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3071
+          Total Spin-Spin Coupling ISO:  1.1090 
+ Pair: 94 Index A: 8 Atomic Number A: 1 Index B: 10 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 2.1610
+          Total Spin-Spin Coupling ISO:  -2.6118 
+ Pair: 95 Index A: 8 Atomic Number A: 1 Index B: 11 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4917
+          Total Spin-Spin Coupling ISO:  6.3406 
+ Pair: 96 Index A: 8 Atomic Number A: 1 Index B: 13 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 4.5247
+          Total Spin-Spin Coupling ISO:  0.0274 
+ Pair: 97 Index A: 8 Atomic Number A: 1 Index B: 15 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 4.5128
+          Total Spin-Spin Coupling ISO:  0.0272 
+ Pair: 98 Index A: 8 Atomic Number A: 1 Index B: 20 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.5270
+          Total Spin-Spin Coupling ISO:  0.0132 
+ Pair: 99 Index A: 8 Atomic Number A: 1 Index B: 21 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.5476
+          Total Spin-Spin Coupling ISO:  0.0127 
+ Pair: 100 Index A: 9 Atomic Number A: 1 Index B: 10 Atomic Number B: 6
+          gn_A:  5.5857,  gn_B: 1.4048 Pair Distance: 2.1579
+          Total Spin-Spin Coupling ISO:  -2.7649 
+ Pair: 101 Index A: 9 Atomic Number A: 1 Index B: 11 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4838
+          Total Spin-Spin Coupling ISO:  6.3931 
+ Pair: 102 Index A: 10 Atomic Number A: 6 Index B: 11 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0865
+          Total Spin-Spin Coupling ISO:  211.3296 
+ Pair: 103 Index A: 12 Atomic Number A: 6 Index B: 13 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3988
+          Total Spin-Spin Coupling ISO:  260.1992 
+ Pair: 104 Index A: 12 Atomic Number A: 6 Index B: 14 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3984
+          Total Spin-Spin Coupling ISO:  260.1813 
+ Pair: 105 Index A: 12 Atomic Number A: 6 Index B: 15 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4233
+          Total Spin-Spin Coupling ISO:  -5.6275 
+ Pair: 106 Index A: 12 Atomic Number A: 6 Index B: 16 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4226
+          Total Spin-Spin Coupling ISO:  -5.6233 
+ Pair: 107 Index A: 12 Atomic Number A: 6 Index B: 17 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.7977
+          Total Spin-Spin Coupling ISO:  10.3369 
+ Pair: 108 Index A: 12 Atomic Number A: 6 Index B: 18 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0859
+          Total Spin-Spin Coupling ISO:  212.9319 
+ Pair: 109 Index A: 12 Atomic Number A: 6 Index B: 19 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1571
+          Total Spin-Spin Coupling ISO:  -2.7870 
+ Pair: 110 Index A: 12 Atomic Number A: 6 Index B: 20 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4076
+          Total Spin-Spin Coupling ISO:  8.2086 
+ Pair: 111 Index A: 12 Atomic Number A: 6 Index B: 21 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1569
+          Total Spin-Spin Coupling ISO:  -2.8168 
+ Pair: 112 Index A: 12 Atomic Number A: 6 Index B: 22 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4070
+          Total Spin-Spin Coupling ISO:  8.2114 
+ Pair: 113 Index A: 12 Atomic Number A: 6 Index B: 23 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8836
+          Total Spin-Spin Coupling ISO:  -2.2497 
+ Pair: 114 Index A: 13 Atomic Number A: 6 Index B: 14 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4225
+          Total Spin-Spin Coupling ISO:  -5.8118 
+ Pair: 115 Index A: 13 Atomic Number A: 6 Index B: 15 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3989
+          Total Spin-Spin Coupling ISO:  258.3128 
+ Pair: 116 Index A: 13 Atomic Number A: 6 Index B: 16 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.7972
+          Total Spin-Spin Coupling ISO:  10.2271 
+ Pair: 117 Index A: 13 Atomic Number A: 6 Index B: 17 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4225
+          Total Spin-Spin Coupling ISO:  -5.6142 
+ Pair: 118 Index A: 13 Atomic Number A: 6 Index B: 18 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1572
+          Total Spin-Spin Coupling ISO:  -2.8383 
+ Pair: 119 Index A: 13 Atomic Number A: 6 Index B: 19 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4066
+          Total Spin-Spin Coupling ISO:  8.2394 
+ Pair: 120 Index A: 13 Atomic Number A: 6 Index B: 20 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1583
+          Total Spin-Spin Coupling ISO:  -2.7012 
+ Pair: 121 Index A: 13 Atomic Number A: 6 Index B: 21 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0861
+          Total Spin-Spin Coupling ISO:  212.4642 
+ Pair: 122 Index A: 13 Atomic Number A: 6 Index B: 22 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8833
+          Total Spin-Spin Coupling ISO:  -2.2492 
+ Pair: 123 Index A: 13 Atomic Number A: 6 Index B: 23 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4066
+          Total Spin-Spin Coupling ISO:  8.2473 
+ Pair: 124 Index A: 14 Atomic Number A: 6 Index B: 15 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.7984
+          Total Spin-Spin Coupling ISO:  10.1670 
+ Pair: 125 Index A: 14 Atomic Number A: 6 Index B: 16 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3994
+          Total Spin-Spin Coupling ISO:  258.0873 
+ Pair: 126 Index A: 14 Atomic Number A: 6 Index B: 17 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4237
+          Total Spin-Spin Coupling ISO:  -5.6256 
+ Pair: 127 Index A: 14 Atomic Number A: 6 Index B: 18 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1572
+          Total Spin-Spin Coupling ISO:  -2.8140 
+ Pair: 128 Index A: 14 Atomic Number A: 6 Index B: 19 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0861
+          Total Spin-Spin Coupling ISO:  212.6120 
+ Pair: 129 Index A: 14 Atomic Number A: 6 Index B: 20 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8845
+          Total Spin-Spin Coupling ISO:  -2.2534 
+ Pair: 130 Index A: 14 Atomic Number A: 6 Index B: 21 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4062
+          Total Spin-Spin Coupling ISO:  8.2434 
+ Pair: 131 Index A: 14 Atomic Number A: 6 Index B: 22 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1586
+          Total Spin-Spin Coupling ISO:  -2.7145 
+ Pair: 132 Index A: 14 Atomic Number A: 6 Index B: 23 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4075
+          Total Spin-Spin Coupling ISO:  8.2421 
+ Pair: 133 Index A: 15 Atomic Number A: 6 Index B: 16 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 2.4231
+          Total Spin-Spin Coupling ISO:  -5.7915 
+ Pair: 134 Index A: 15 Atomic Number A: 6 Index B: 17 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3988
+          Total Spin-Spin Coupling ISO:  259.8551 
+ Pair: 135 Index A: 15 Atomic Number A: 6 Index B: 18 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4070
+          Total Spin-Spin Coupling ISO:  8.2622 
+ Pair: 136 Index A: 15 Atomic Number A: 6 Index B: 19 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8846
+          Total Spin-Spin Coupling ISO:  -2.2517 
+ Pair: 137 Index A: 15 Atomic Number A: 6 Index B: 20 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0861
+          Total Spin-Spin Coupling ISO:  212.6511 
+ Pair: 138 Index A: 15 Atomic Number A: 6 Index B: 21 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1581
+          Total Spin-Spin Coupling ISO:  -2.7391 
+ Pair: 139 Index A: 15 Atomic Number A: 6 Index B: 22 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4069
+          Total Spin-Spin Coupling ISO:  8.2380 
+ Pair: 140 Index A: 15 Atomic Number A: 6 Index B: 23 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1576
+          Total Spin-Spin Coupling ISO:  -2.8039 
+ Pair: 141 Index A: 16 Atomic Number A: 6 Index B: 17 Atomic Number B: 6
+          gn_A:  1.4048,  gn_B: 1.4048 Pair Distance: 1.3992
+          Total Spin-Spin Coupling ISO:  259.9321 
+ Pair: 142 Index A: 16 Atomic Number A: 6 Index B: 18 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4067
+          Total Spin-Spin Coupling ISO:  8.2715 
+ Pair: 143 Index A: 16 Atomic Number A: 6 Index B: 19 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1586
+          Total Spin-Spin Coupling ISO:  -2.7120 
+ Pair: 144 Index A: 16 Atomic Number A: 6 Index B: 20 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4072
+          Total Spin-Spin Coupling ISO:  8.2333 
+ Pair: 145 Index A: 16 Atomic Number A: 6 Index B: 21 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8833
+          Total Spin-Spin Coupling ISO:  -2.2519 
+ Pair: 146 Index A: 16 Atomic Number A: 6 Index B: 22 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0861
+          Total Spin-Spin Coupling ISO:  212.6140 
+ Pair: 147 Index A: 16 Atomic Number A: 6 Index B: 23 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1576
+          Total Spin-Spin Coupling ISO:  -2.8186 
+ Pair: 148 Index A: 17 Atomic Number A: 6 Index B: 18 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.8836
+          Total Spin-Spin Coupling ISO:  -2.2514 
+ Pair: 149 Index A: 17 Atomic Number A: 6 Index B: 19 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4081
+          Total Spin-Spin Coupling ISO:  8.2143 
+ Pair: 150 Index A: 17 Atomic Number A: 6 Index B: 20 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1575
+          Total Spin-Spin Coupling ISO:  -2.7817 
+ Pair: 151 Index A: 17 Atomic Number A: 6 Index B: 21 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 3.4069
+          Total Spin-Spin Coupling ISO:  8.2365 
+ Pair: 152 Index A: 17 Atomic Number A: 6 Index B: 22 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 2.1575
+          Total Spin-Spin Coupling ISO:  -2.8091 
+ Pair: 153 Index A: 17 Atomic Number A: 6 Index B: 23 Atomic Number B: 1
+          gn_A:  1.4048,  gn_B: 5.5857 Pair Distance: 1.0859
+          Total Spin-Spin Coupling ISO:  212.9976 
+ Pair: 154 Index A: 18 Atomic Number A: 1 Index B: 19 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4842
+          Total Spin-Spin Coupling ISO:  6.4317 
+ Pair: 155 Index A: 18 Atomic Number A: 1 Index B: 20 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3042
+          Total Spin-Spin Coupling ISO:  1.0883 
+ Pair: 156 Index A: 18 Atomic Number A: 1 Index B: 21 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4833
+          Total Spin-Spin Coupling ISO:  6.4384 
+ Pair: 157 Index A: 18 Atomic Number A: 1 Index B: 22 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3042
+          Total Spin-Spin Coupling ISO:  1.0952 
+ Pair: 158 Index A: 18 Atomic Number A: 1 Index B: 23 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.9695
+          Total Spin-Spin Coupling ISO:  1.0613 
+ Pair: 159 Index A: 19 Atomic Number A: 1 Index B: 20 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.9706
+          Total Spin-Spin Coupling ISO:  1.0631 
+ Pair: 160 Index A: 19 Atomic Number A: 1 Index B: 21 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3028
+          Total Spin-Spin Coupling ISO:  1.0789 
+ Pair: 161 Index A: 19 Atomic Number A: 1 Index B: 22 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4868
+          Total Spin-Spin Coupling ISO:  6.3940 
+ Pair: 162 Index A: 19 Atomic Number A: 1 Index B: 23 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3048
+          Total Spin-Spin Coupling ISO:  1.0881 
+ Pair: 163 Index A: 20 Atomic Number A: 1 Index B: 21 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4863
+          Total Spin-Spin Coupling ISO:  6.4093 
+ Pair: 164 Index A: 20 Atomic Number A: 1 Index B: 22 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3037
+          Total Spin-Spin Coupling ISO:  1.0782 
+ Pair: 165 Index A: 20 Atomic Number A: 1 Index B: 23 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4847
+          Total Spin-Spin Coupling ISO:  6.4139 
+ Pair: 166 Index A: 21 Atomic Number A: 1 Index B: 22 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.9693
+          Total Spin-Spin Coupling ISO:  1.0599 
+ Pair: 167 Index A: 21 Atomic Number A: 1 Index B: 23 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 4.3042
+          Total Spin-Spin Coupling ISO:  1.0973 
+ Pair: 168 Index A: 22 Atomic Number A: 1 Index B: 23 Atomic Number B: 1
+          gn_A:  5.5857,  gn_B: 5.5857 Pair Distance: 2.4841
+          Total Spin-Spin Coupling ISO:  6.4136 
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    24 
+    Geometry Index:     1 
+    Coordinates:
+               0 H      1.016584000000   -2.143923000000   -0.007338000000
+               1 C      1.567473000000   -1.207216000000   -0.003990000000
+               2 H     -0.201457000000    0.011293000000   -0.015095000000
+               3 H      3.508648000000   -2.153658000000    0.010756000000
+               4 C      0.872927000000    0.006469000000   -0.010063000000
+               5 C      2.966786000000   -1.211939000000    0.006209000000
+               6 C      1.576622000000    1.215318000000   -0.006078000000
+               7 C      3.670557000000   -0.002667000000    0.013311000000
+               8 H      1.031948000000    2.155678000000   -0.010622000000
+               9 H      4.756785000000   -0.006706000000    0.022713000000
+              10 C      2.975489000000    1.211187000000    0.006926000000
+              11 H      3.523586000000    2.149281000000    0.011504000000
+              12 C     -3.304240000000   -0.071730000000   -1.399078000000
+              13 C     -3.320560000000    1.172623000000   -0.760456000000
+              14 C     -3.304220000000   -1.246930000000   -0.641216000000
+              15 C     -3.339796000000    1.242486000000    0.636598000000
+              16 C     -3.320655000000   -1.177612000000    0.756328000000
+              17 C     -3.340089000000    0.067141000000    1.394989000000
+              18 H     -3.279415000000   -0.124833000000   -2.483401000000
+              19 H     -3.284588000000   -2.212834000000   -1.137510000000
+              20 H     -3.348000000000    2.208607000000    1.132759000000
+              21 H     -3.313290000000    2.084636000000   -1.350226000000
+              22 H     -3.313580000000   -2.089625000000    1.346045000000
+              23 H     -3.343728000000    0.120564000000    2.479571000000

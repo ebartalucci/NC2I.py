@@ -1,0 +1,13 @@
+2D 1H-1H NOESY Echo
+1*rotor period for the hahn echo
+tmix 50ms
+TLa rac
+d1=6.5sec (1.3*5sec)
+RAC TLa
+60khz
+285K
+with 1H filter
+
+meaurement time = 7min 30 sec
+
+shim from november 1p3mm.towi_etba

@@ -1,0 +1,243 @@
+# 1 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+;hahnecho
+;
+;
+;TS3 / 03.06.2011
+;
+;checked by SEWE 03.06.2011
+;
+; Hahn-Echo experiment
+; to be used in MAS experiments, echo delay is set to be an integer number
+; of rotor periods
+; acquisition starts immediately after 180 degree pulse to be able to sample whole echo
+; for short echo delays set parameter nsp equal to number of points before echo-top
+; in this case use digmod analog or digmod digital and dspfirm smooth
+; for full echo accumulation digmod digital and dspfirm sharp can also be used
+; set phc0=0 and phc1=d6*swh*360 and do straight fp, sine bell or squared sine bell
+; window functions may be used
+; for static experiments enter cnst31 = 1e6 and set l1 to desired echo delay in us
+;
+;
+;parameters:
+;pl1 : RF power level for 90/180
+;p1 : 90 degree pulse
+;p2 : =p1*2, 180 degree pulse
+;d1 : recycle delay
+;d6 : echo delay (calculated)
+;cnst31 : =MAS spin rate (or =1e6 for static)
+;l1 : # of rotor cycles (or tau in us)
+;ns : 16*n
+;zgoptns : -Ddec (if decoupling desired) or blank
+;
+;
+;$CLASS=Solids
+;$DIM=1D
+;$TYPE=direct excitation
+;$SUBTYPE=simple 1D
+;$COMMENT=Hahn-Echo experiment, MAS or static, standard parameters
+
+prosol relations=<solids_default>
+
+# 41 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+"p2=p1*2"
+"d6=((1s*l1)/cnst31)-(p1/2)-(p2/2)"
+;cnst11 : to adjust t=0 for acquisition, if digmod = baseopt
+"acqt0=0"
+
+
+# 53 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+;=============================
+; Include files
+;=============================
+;#include <Avance.incl>
+# 1 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Avancesolids.incl" 1
+;Avancesolids.incl
+;   for TCU3
+;
+;version 1 28.2.2001, written by HF
+;	   4.4.2006, complemented by Ste
+
+;$CLASS=Solids INCL
+;$COMMENT=definitions for setrtp and setnmr
+
+;switch between 1H or 19F output (H amplifier) 
+# 14 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;gating pulse for RX, ADC and HPPR auto mode
+
+
+# 18 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;explicit blanking of preamp, receiver, adc, not implemented yet
+
+
+# 26 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;generate dwell clock
+
+
+;turn dwell clock on/off
+# 32 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;
+
+
+# 36 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;define data sampling for WAHUHA type experiments, samples analogue or digitally for d9, closes receiver
+
+
+# 40 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Avancesolids.incl"
+;explicit transmitter blanking, not supported yet
+
+;NCO switching, to be implemented
+
+;$Id: Avancesolids.incl,v 1.8.2.1 2017/02/22 17:02:01 ber Exp $
+# 57 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba" 2
+# 1 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Delay.incl" 1
+;Delay.incl  -  include file for commonly used delays
+;
+;version (13/08/07)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+
+;general delays
+# 11 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+define delay DELTA
+define delay DELTA1
+define delay DELTA2
+define delay DELTA3
+define delay DELTA4
+define delay DELTA5
+define delay DELTA6
+define delay DELTA7
+define delay DELTA8
+define delay DELTA9
+define delay DELTA10
+define delay DELTA11
+define delay DELTA12
+define delay DELTA13
+define delay DELTA14
+define delay DELTA15
+define delay DELTA16
+
+define delay TAU
+define delay TAU1
+define delay TAU2
+define delay TAU3
+define delay TAU4
+define delay TAU5
+define delay TAU6
+define delay TAU7
+define delay TAU8
+define delay TAU9
+
+define delay INCR1
+define delay INCR2
+define delay INCR3
+define delay INCR4
+define delay INCR5
+define delay INCR6
+# 48 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+;delays for centering pulses
+
+define delay CEN_HN1
+define delay CEN_HN2
+define delay CEN_HN3
+define delay CEN_HC1
+define delay CEN_HC2
+define delay CEN_HC3
+define delay CEN_HC4
+define delay CEN_HP1
+define delay CEN_HP2
+define delay CEN_CN1
+define delay CEN_CN2
+define delay CEN_CN3
+define delay CEN_CN4
+define delay CEN_CP1
+define delay CEN_CP2
+
+# 67 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+;loop counters
+
+define loopcounter COUNTER
+define loopcounter SCALEF
+define loopcounter FACTOR1
+define loopcounter FACTOR2
+define loopcounter FACTOR3
+define loopcounter FACTOR4
+define loopcounter FACTOR5
+define loopcounter FACTOR6
+
+# 80 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+;$Id: Delay.incl,v 1.14.2.1 2013/08/30 09:43:33 ber Exp $
+# 58 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba" 2
+
+;=============================
+; End Include files
+;=============================
+
+;=============================
+; Protection
+;=============================
+1m
+  if "p15    > 10100"   goto Problem
+  if "p16    > 10100"   goto Problem
+;  if "aq     > 50m"    goto Problem
+  if "d1     < 0.1s"    goto Problem
+;  if "d20     < 1ms"    goto Problem
+  goto PassParams
+Problem, 1m
+  print "Parameters p15, p16, aq, d1 or d20 out of range, ending."
+  goto HaltAcqu
+PassParams, 1m
+;=============================
+; End Protection
+;=============================
+# 1 "mc_line 81 file /opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba exp. def. part of mc cmd. before ze"
+; dimension 1D; AQ_mode 
+define delay MCWRK
+define delay MCREST
+"MCREST = 10m - 10m"
+"MCWRK = 0.333333*10m"
+
+    dccorr
+# 81 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+# 81 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+1 ze
+# 1 "mc_line 81 file /opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba exp. def. of mc cmd. after ze"
+# 82 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+# 1 "mc_line 82 file /opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba exp. start label for mc cmd."
+2 MCWRK  * 2
+LBLF0, MCWRK
+  MCREST
+# 83 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+
+
+# 86 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+  d1
+
+  (p1 pl1 ph1):f1
+
+# 92 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+  d6
+
+  (p2 ph2):f1
+  d6
+  go=2 ph31
+
+# 1 "mc_line 100 file /opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba exp. mc cmd. in line"
+  MCWRK wr #0
+  MCWRK zd
+  lo to LBLF0 times td0
+
+# 101 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+# 101 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+HaltAcqu, 1m
+exit
+
+ph0=0
+ph1=0 1 2 3
+ph2=0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3
+ph30=0
+ph31=0 3 2 1 2 1 0 3
+
+# 112 "/opt/topspin3.6.2/exp/stan/nmr/lists/pp/user/hahnecho.etba"
+;$Id: hahnecho,v 1.6.2.1 2017/02/22 17:02:21 ber Exp $

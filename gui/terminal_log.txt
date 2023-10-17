@@ -1,0 +1,6 @@
+-------- (NC)2I.py TERMINAL LOGS: 2023-10-13 17:19:47 created by Ettore Bartalucci -------- 
+>> >>initial test terminal logs > successful
+>> WELCOME TO NC2I.PY - AN EASY TO USE GUI TO WORK WITH NMR CALCULATIONS FOR NONCOVALENT INTERACTIONS
+-------- (NC)2I.py TERMINAL LOGS: 2023-10-13 17:24:07 created by Ettore Bartalucci -------- 
+>> testing the cleaning command for terminal
+>> clearing > successful

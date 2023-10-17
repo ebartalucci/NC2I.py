@@ -1,0 +1,59 @@
+#lot-start
+NAME =
+#lot-end
+
+#new_job
+$$$$$$$$$$$$$$$$  JOB NUMBER  X $$$$$$$$$$$$$$
+
+#shifts-start
+--------------------------------
+CHEMICAL SHIELDING SUMMARY (ppm)
+--------------------------------
+
+
+  Nucleus  Element    Isotropic     Anisotropy
+  -------  -------  ------------   ------------
+
+
+#csa_tensor - need to get the tensor
+---------------
+CHEMICAL SHIFTS
+---------------
+
+Note: using conversion factor for au to ppm alpha^2/2 =   26.625677252 
+GIAO: Analytic para- and diamagnetic shielding integrals (SHARK)       ...done
+ --------------
+ Nucleus   0H :
+ --------------
+
+Diamagnetic contribution to the shielding tensor (ppm) : 
+            34.941          3.879         0.075
+             8.308         43.084         0.128
+             0.075         -0.026        33.609
+
+Paramagnetic contribution to the shielding tensor (ppm): 
+            -5.873         -8.351        -0.045
+           -10.717        -19.538        -0.142
+            -0.004         -0.008       -13.428
+
+Total shielding tensor (ppm): 
+            29.068         -4.472         0.030
+            -2.409         23.547        -0.014
+             0.071         -0.034        20.181
+
+
+ Diagonalized sT*s matrix:
+ 
+ sDSO            33.609           46.333           31.693  iso=      37.211
+ sPSO           -13.427          -24.433           -0.977  iso=     -12.946
+        ---------------  ---------------  ---------------
+ Total           20.181           21.900           30.716  iso=      24.265
+
+#j_coupling-start
+-----------------------------------------------------------------------------
+                 SUMMARY OF ISOTROPIC COUPLING CONSTANTS (Hz)                
+-----------------------------------------------------------------------------
+#j_coupling-end
+Maximum memory used throughout the entire EPRNMR-calculation:
+
+

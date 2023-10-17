@@ -1,0 +1,23 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 246	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= etba
+$$ 2023-03-07 00:58:23.797 +0100  etba@CZC007DNDL
+$$ /opt/nmrdata/etba/060323_1p2mm_1H_TLa_Rac_igda_etba/2/acqu2s
+$$ process /opt/topspin3.6.2/prog/mod/go4
+##$ACQT0= 0
+##$BF1= 700.26
+##$FnMODE= 5
+##$NUC1= <1H>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 240
+##$O1= -4649.35
+##$ProjAngle= 0
+##$SFO1= 700.25535065
+##$SW= 42.7560028390895
+##$SW_h= 29940.119760479
+##$TD= 240
+##END=

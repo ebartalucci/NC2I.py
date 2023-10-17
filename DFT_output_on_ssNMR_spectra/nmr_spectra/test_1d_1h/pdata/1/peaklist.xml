@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="Ettore Bartalucci" date="2023-02-27T11:53:11.729+01:00" expNo="103" name="230223_1p2mm_1H_TLa_Rac_and_R_igda_etba" owner="" procNo="1" source="D:/PhD/Data/NMR/ETBA/Negative_NOE/TLa">
+      <PeakPickDetails>F1=15.418900ppm, F2=-1.138300ppm, MI=0.00cm, MAXI=10000.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="14.152431" intensity="-7.360031e-02" type="0"/>
+    <Peak1D F1="11.583367" intensity="4.380284e+00" type="0"/>
+    <Peak1D F1="8.587675" intensity="-6.368734e-02" type="0"/>
+    <Peak1D F1="6.347775" intensity="4.197296e+00" type="0"/>
+    <Peak1D F1="4.212442" intensity="-8.554786e-02" type="0"/>
+    <Peak1D F1="1.550862" intensity="1.100000e+01" type="0"/>
+    <Peak1D F1="-0.118028" intensity="-4.602871e-02" type="0"/>
+  </PeakList1D>
+</PeakList>

@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.1.3
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= Ettore Bartalucci
+$$ 2023-03-07 11:02:12.301 +0100  Ettore Bartalucci@DESKTOP-9K075JF
+$$ D:/PhD/Data/NMR/ETBA/Negative_NOE/TLa/060323_1p2mm_1H_TLa_Rac_igda_etba/2/pdata/1/assocs
+$$ process C:\Bruker\TopSpin4.1.3\prog\mod\dataserver.exe
+##$MULTDISP= <D:/PhD/Data/NMR/ETBA/Negative_NOE/TLa/230223_1p2mm_1H_TLa_Rac_and_R_igda_etba/106/pdata/1>
+##END=

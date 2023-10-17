@@ -1,0 +1,19 @@
+%MaxCore 4000
+! pbe0 pcSseg-2 RIJK defgrid3 nososcf printgap NMR
+
+*xyzfile 0 1 57_019_0.xyz
+
+%basis
+  auxJK "AutoAux"
+end
+
+%pal
+  nprocs 4
+end
+
+%eprnmr
+  Ori = GIAO
+  giao_1el = giao_1el_analytic
+  giao_2el = giao_2el_same_as_scf
+end 
+

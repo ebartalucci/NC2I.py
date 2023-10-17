@@ -1,0 +1,36 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= etba
+$$ /opt/nmrdata/etba/230223_1p2mm_1H_TLa_Rac_and_R_igda_etba/103/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-02-23 15:21:41.015 +0100>,<etba>,<CZC007DNDL>,<go4>,<TopSpin 3.6.2>,
+      <created by zg
+	started at 2023-02-23 15:14:02.176 +0100,
+	POWCHK disabled, PULCHK disabled,
+       configuration hash MD5:
+       0C D9 D6 5B FA C1 2E 39 63 B9 95 BD 0A 0B 3A E4
+       data hash MD5: 16K
+       52 38 5E AA 1B 35 09 26 55 51 A8 47 B9 75 D7 50>)
+(   2,<2023-02-23 15:22:02.597 +0100>,<etba>,<CZC007DNDL>,<proc1d>,<TopSpin 3.6.2>,
+      <Start of raw data processing
+       fp FT_mod = 6 PKNL = 1 PHC0 = -132.9532 PHC1 = -177.9653 SI = 128K 
+       data hash MD5: 128K
+       BF 70 5A C2 72 02 FA 88 2D 36 55 F5 95 E9 6E E7>)
+(   3,<2023-02-23 15:22:34.034 +0100>,<etba>,<CZC007DNDL>,<proc1d>,<TopSpin 3.6.2>,
+      <pk fgphup PHC0 = -30.46727 PHC1 = 51.6 
+       data hash MD5: 128K
+       AA 97 C9 C3 3E 37 6F 06 84 C8 63 37 36 98 39 1C>)
+(   4,<2023-02-23 15:22:52.204 +0100>,<etba>,<CZC007DNDL>,<proc1d>,<TopSpin 3.6.2>,
+      <pk fgphup PHC0 = 13.62618 PHC1 = -29.6 
+       data hash MD5: 128K
+       40 CC A7 11 A3 F9 7E 90 B9 6F 38 73 BA 4C B7 4B>)
+$$ D:/PhD/Data/NMR/ETBA/Negative_NOE/TLa/230223_1p2mm_1H_TLa_Rac_and_R_igda_etba/103/pdata/1/auditp.txt
+(   5,<2023-02-27 11:53:11.712 +0100>,<Ettore Bartalucci>,<DESKTOP-9K075JF>,<peak>,<TopSpin 4.1.3>,
+      <1D Peak picking
+       data hash MD5: 128K
+       40 CC A7 11 A3 F9 7E 90 B9 6F 38 73 BA 4C B7 4B>)
+##END=
+
+$$ hash MD5
+$$ 17 96 2F 7E AD 6F B5 A1 2C FF 3A 2E 5E BC 55 81
